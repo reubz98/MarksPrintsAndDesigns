@@ -1,0 +1,10 @@
+.grid-container {
+    background-color: rgb(199, 233, 238);
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-rows: 4fr 2fr 20fr 20fr 3fr;
+    grid-template-areas: ". . title . ."
+                        "navbar navbar navbar navbar navbar";
+                        
+    height: 100%;
+}

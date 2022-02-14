@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: rgb(56, 152, 231);
+  }
+
+  #title {
+    margin: 0 auto; 
+    font-family: Anton;
+    color: rgb(81, 177, 241);
+}
+
+.title {
+  grid-area: title;
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: rgb(123, 186, 238);
+}
